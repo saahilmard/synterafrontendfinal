@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import MainLayout from "@/components/layout/MainLayout";
-import { Button } from "@/components/ui/Button";
+import { Button } from "@/components/ui/CustomButton";
 import { useToast } from "@/hooks/use-toast";
 
 const Settings = () => {

@@ -1,10 +1,9 @@
-
 import { Plus, Search } from "lucide-react";
 import { Link } from "react-router-dom";
 import MainLayout from "@/components/layout/MainLayout";
 import VisitCard from "@/components/dashboard/VisitCard";
 import FilterBar from "@/components/dashboard/FilterBar";
-import { Button } from "@/components/ui/Button";
+import { Button } from "@/components/ui/CustomButton";
 
 // Mock data
 const recentVisits = [

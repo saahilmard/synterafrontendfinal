@@ -5,7 +5,7 @@ import TranscriptionFeed from "@/components/visit/TranscriptionFeed";
 import SoapNote from "@/components/visit/SoapNote";
 import PatientSidebar from "@/components/visit/PatientSidebar";
 import VisitTopBar from "@/components/visit/VisitTopBar";
-import { Button } from "@/components/ui/Button";
+import { Button } from "@/components/ui/CustomButton";
 import { useToast } from "@/hooks/use-toast";
 
 // Mock data
