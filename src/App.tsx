@@ -8,6 +8,7 @@ import Dashboard from "./pages/Dashboard";
 import LiveVisit from "./pages/LiveVisit";
 import Settings from "./pages/Settings";
 import NotFound from "./pages/NotFound";
+import Index from "./pages/Index";
 
 const queryClient = new QueryClient();
 
@@ -18,7 +19,8 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Dashboard />} />
+          <Route path="/" element={<Index />} />
+          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/visit" element={<LiveVisit />} />
           <Route path="/visit/:id" element={<LiveVisit />} />
           <Route path="/settings" element={<Settings />} />
