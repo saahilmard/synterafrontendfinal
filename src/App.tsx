@@ -9,6 +9,7 @@ import LiveVisit from "./pages/LiveVisit";
 import Settings from "./pages/Settings";
 import NotFound from "./pages/NotFound";
 import Index from "./pages/Index";
+import TestApi from "./pages/TestApi";
 
 const queryClient = new QueryClient();
 
@@ -24,6 +25,7 @@ const App = () => (
           <Route path="/visit" element={<LiveVisit />} />
           <Route path="/visit/:id" element={<LiveVisit />} />
           <Route path="/settings" element={<Settings />} />
+          <Route path="/test-api" element={<TestApi />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
